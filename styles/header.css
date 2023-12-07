@@ -1,0 +1,62 @@
+header {
+    top: 0;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 600px;
+}
+
+.right-section {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.notion-logo {
+    height: 60px;
+    width: 110px;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.notion-icon {
+    height: 40px;
+    display: inline-block;
+}
+
+.notion-name {
+    display: inline-block;
+    
+}
+
+.hover-box {
+    display: inline-block;
+}
+
+.right-section button {
+    background-color: white;
+    border: none;
+    
+}
+
+.right-section .black-white-button {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+

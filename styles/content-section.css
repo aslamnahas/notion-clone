@@ -1,0 +1,84 @@
+.content-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: pink;  */
+}
+
+.welcome-message-box {
+    display: inline-block;
+    margin-top: 200px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 240px;
+    margin-bottom: 30px;
+}
+
+.heading {
+    font-size: 60px;
+    width: 600px;
+    text-align: center;
+}
+
+.black-white-button {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    padding: 10px;
+    border: none;
+}
+
+.home-hero-picture {
+    height: 250px;
+}
+
+
+.four-boxes {
+     
+    display: flex;
+    flex-direction: row;
+    column-gap: 13px;
+    justify-content: space-between;
+    width: 1000px;
+    margin-bottom: 20px;
+}
+
+.four-box {
+    margin: 10px;
+}
+
+.four-boxes div {
+    box-shadow: 1px 1px rgba(0, 0, 0, 0.2);
+    width: 239px;
+    height: 110px;
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(246, 246, 246);
+}
+
+.four-box-image {
+    background-color: rgb(241, 185, 116);
+    height: 600px;
+    width: 1000px;
+    border-radius: 10px;
+    box-shadow: 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.get-started-container {
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.notion-parade {
+    margin-bottom: 200px;
+}
